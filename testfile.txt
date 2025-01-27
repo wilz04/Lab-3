@@ -1,0 +1,7 @@
+str(move0) + "" + str(move)
+
+file = open("testfile.txt", "a+b")
+file.write( "depth: " + str(depth) + "; " + str(move0) + "\n")
+file.close()
+#print "ALPHA-BETA: Depth %d with player %d" % (depth, board.get_current_player_id())
+#print str(board)
